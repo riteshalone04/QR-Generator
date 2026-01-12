@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); /* More vibrant gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 380px;
+}
+
+/* New Designer Branding Styles */
+.designer-info {
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.designer-name {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+    font-weight: 400;
+}
+
+.designer-name span {
+    font-weight: 700;
+    color: #b21f1f; /* Matches the theme color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin-bottom: 20px;
+}
+
+/* Rest of the styles */
+h1 { color: #222; font-size: 1.5rem; margin-top: 0; }
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a2a6c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #b21f1f;
+    transform: translateY(-2px);
+}
+
+#qrcode-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
